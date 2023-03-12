@@ -16,7 +16,7 @@ contract Faucet {
     mapping(address => uint256) public addressToAmountFunded;
 
     // public withdraw function
-    function withdraw(uint _amount) public payable {
+    function withdraw(uint _amount) public {
         // check if the amount is less than or equal to 0.1eth
         require(_amount <= 100000000000000000, "Max amount exceeded!");
 
