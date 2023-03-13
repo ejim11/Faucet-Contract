@@ -8,7 +8,7 @@ const TEST_SEPOLIA_URL =
   process.env.TEST_SEPOLIA_URL || "https:\\eth-sepolia/example";
 const TEST_PRIVATE_KEY = process.env.TEST_PRIVATE_KEY || "key";
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || "key";
-const COIN_MARKET_CAP_API_KEY = process.env.COIN_MARKET_CAP_API_KEY || "key";
+const COIN_MARKET_CAP_API_KEY = process.env.COIN_MARKET_CAP_API_KEY;
 
 module.exports = {
   solidity: "0.8.4",
